@@ -50,7 +50,6 @@ YAML
 run 'rm app/assets/javascripts/application.js'
 file 'app/assets/javascripts/application.js', <<-JS
 //= require jquery
-//= require jquery_ujs
 //= require rails-ujs
 //= require_tree .
 JS
