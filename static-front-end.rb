@@ -20,6 +20,8 @@ gem 'font-awesome-sass', '~> 5.5.0'
 gem 'sassc-rails'
 gem 'uglifier'
 gem 'webpacker'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'rails-ujs', '~> 0.1.0'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
