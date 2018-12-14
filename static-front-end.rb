@@ -45,11 +45,6 @@ file 'Procfile', <<-YAML
 web: bundle exec puma -C config/puma.rb
 YAML
 
-# Assets
-########################################
-run 'rm -rf app/assets/stylesheets'
-run 'rm -rf vendor'
-
 run 'rm app/assets/javascripts/application.js'
 file 'app/assets/javascripts/application.js', <<-JS
 //= require jquery
@@ -138,6 +133,12 @@ yarn-error.log
 .byebug_history
 .env*
 TXT
+
+# HELLO WORLD PAGES#HOME
+run 'rm app/views/pages/home.html.erb'
+file 'app/views/pages/home.html.erb', <<-HTML
+<h1>Hello World</h1>
+HTML
 
   # migrate + devise views
   ########################################
