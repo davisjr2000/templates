@@ -239,5 +239,5 @@ JS
   ########################################
   git :init
   git add: '.'
-  git commit: "-m 'Initial commit with devise template from https://github.com/lewagon/rails-templates'"
+  git commit: "-m 'Initial commit with default template'"
 end
